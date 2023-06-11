@@ -1,0 +1,30 @@
+.subnav {
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    width: 200px;
+    min-height: 75px;
+    top: 100%;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 15px;
+    transition-delay: 0.2s;
+    z-index: 5;
+}
+
+.subnav li {
+    margin-top: 15px;
+}
+
+.nav_a_active {
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+    font-weight: 800;
+}
+
+.nav_a_active:hover {
+    color: #EF7B22;
+    transition: 0.2s linear;
+}

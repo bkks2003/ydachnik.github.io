@@ -1,0 +1,48 @@
+.about {
+    padding: 25px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.about__info {
+    position: relative;
+    background: url(../images/background-info.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.about__info:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    border-radius: 25px;
+}
+
+.text__info {
+    position: relative;
+    padding: 90px 25px;
+    z-index: 3;
+}
+
+.text__info span:first-child {
+    color: #F1D64C;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.text__info h2 {
+    font-size: 6rem;
+    font-weight: 800;
+    margin: 25px 0;
+}
+
+.text__info span:last-child {
+    line-height: 25px;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+}

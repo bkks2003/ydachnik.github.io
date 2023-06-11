@@ -1,0 +1,26 @@
+.recommendations {
+  padding: 90px 25px 90px;
+  text-align: center;
+}
+.recommendations h2 {
+  margin: 25px 0 80px;
+  color: #152313;
+  font-size: 7rem;
+  font-weight: 900;
+}
+.recommendations .rec__list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  color: black;
+  font-size: 1.8rem;
+}
+.recommendations .rec__list li {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  margin-top: 25px;
+  line-height: 25px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+}

@@ -1,0 +1,164 @@
+@media screen and (min-width: 2560px) {
+  html {
+    font-size: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .header {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2.5rem;
+  }
+  .header .soc_nav {
+    display: none;
+    margin: 0;
+  }
+  .phone_contact {
+    display: none;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  .phone_contact p {
+    margin-bottom: 0.5rem;
+  }
+  .logo_box {
+    z-index: 0;
+    margin: 1.5rem 0 1.5rem;
+  }
+  .info_contact {
+    display: none;
+    margin: 0;
+  }
+  .body_content {
+    margin-top: 0;
+  }
+  .info_block {
+    margin: auto;
+    background: url(../images/background-body.png);
+    background-size: cover;
+  }
+  .info_block .info__direction {
+    color: #F1D64C;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .info_block .info__title {
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin: 0 25px;
+  }
+  .info_block .info__description {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .products {
+    padding: 35px 25px 35px;
+  }
+  .products .catalog {
+    font-size: 2.5rem;
+  }
+  .products .offer {
+    font-size: 4.5rem;
+  }
+  .product__unit .product__info .product__name {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .product__unit .product__info .product__description {
+    font-size: 1.3rem;
+  }
+  .about .about__info {
+    background: url(../images/background-info.jpg) no-repeat right;
+    background-size: cover;
+  }
+  .about .about__info .text__info span:first-child {
+    font-size: 2.5rem;
+  }
+  .about .about__info .text__info h2 {
+    font-size: 4.5rem;
+  }
+  .about .about__info .text__info span:last-child {
+    font-size: 1.4rem;
+  }
+  .recommendations h2 {
+    font-size: 4.5rem;
+  }
+  .recommendations .rec__list li {
+    font-size: 1.8rem;
+  }
+  .footer .footer__block .copyright__block {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .info_block {
+    margin: auto;
+  }
+  .info_block .info__direction {
+    color: #F1D64C;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .info_block .info__title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0 25px;
+  }
+  .info_block .info__description {
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .products .catalog {
+    font-size: 1.8rem;
+  }
+  .products .offer {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  .product__list {
+    display: flex;
+    flex-direction: column;
+  }
+  .product__unit {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  .product__unit .product__info .product__name {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .product__unit .product__info .product__description {
+    font-size: 1.3rem;
+  }
+  .about .about__info .text__info span {
+    font-size: 1.8rem;
+  }
+  .about .about__info .text__info h2 {
+    font-size: 2.5rem;
+  }
+  .recommendations {
+    padding: 0 2.5rem;
+  }
+  .recommendations h2 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  .recommendations .rec__list {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .recommendations .rec__list li {
+    font-size: 1.4rem;
+    width: 100%;
+  }
+}

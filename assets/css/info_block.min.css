@@ -1,0 +1,27 @@
+.info_block {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  text-align: center;
+  background: url(../images/background-body.png);
+  background-position: center;
+  background-size: cover;
+  padding: 150px 30px;
+  border-radius: 15px;
+}
+.info_block .info__direction {
+  color: #F1D64C;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.info_block .info__title {
+  font-size: 7.8rem;
+  font-weight: 800;
+  margin: 0 25px;
+}
+.info_block .info__description {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.8);
+}
