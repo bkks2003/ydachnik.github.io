@@ -86,6 +86,7 @@ html {
     margin-left: 10px;
     font-size: 1.8rem;
     color: #152313;
+    font-weight: 800;
 }
 
 .soc_img {
@@ -109,15 +110,6 @@ html {
 .soc_img img {
     width: 3.5rem;
     height: 3.5rem;
-}
-
-.phone_p p {
-    margin: 0;
-}
-
-.phone_p span {
-    font-weight: 800;
-    margin-top: 0;
 }
 
 /* LOGO BOX */
@@ -587,9 +579,18 @@ body {
     display: flex;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
+    -ms-flex-pack: center;
+    justify-content: center;
     -ms-flex-item-align: center;
     align-self: center;
     margin-right: 1.5rem;
+}
+
+.block__contact .phone__block .phone__p__block {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .block__contact .marker__block {
@@ -602,7 +603,6 @@ body {
 }
 
 .block__contact .marker__block p {
-    margin-left: 10px;
     color: #152313;
     font-size: 1.8rem;
 }
@@ -748,6 +748,70 @@ body {
         font-size: 1.8rem;
     }
 
+    .footer .footer__block block__contact {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .footer .footer__block .phone__block {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .footer .footer__block .phone__block .phone__p__block {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer .footer__block .phone__block .phone_p {
+        font-size: 1.4rem;
+        font-weight: 800;
+    }
+
+    .footer .footer__block .marker__block {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer .footer__block .marker__block p {
+        font-size: 1.4rem;
+    }
+
+    .footer .footer__block .soc_nav {
+        margin: 0;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100%;
+    }
+
     .footer .footer__block .copyright__block {
         text-align: center;
         font-size: 1.4rem;
@@ -844,6 +908,14 @@ body {
     }
 }
 
+.close {
+    visibility: hidden;
+}
+
+.overlay {
+    visibility: visible;
+}
+
 .hamburger-menu {
     position: fixed;
     z-index: 5;
@@ -858,7 +930,6 @@ body {
 .menu__box {
     display: block;
     position: fixed;
-    visibility: hidden;
     z-index: 4;
     top: 0;
     left: -100%;
