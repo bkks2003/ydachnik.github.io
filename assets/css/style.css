@@ -64,7 +64,7 @@ html {
     display: flex;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 25px 25px;
+    padding: 2.5rem 2.5rem;
 }
 
 .phone_contact {
@@ -377,7 +377,7 @@ body {
 }
 
 .products {
-    padding: 90px 25px 90px;
+    padding: 9rem 2.5rem 9rem;
     text-align: center;
 }
 
@@ -882,10 +882,8 @@ body {
     .menu__btn {
         display: -ms-flexbox;
         display: flex;
-    /* используем flex для центрирования содержимого */
         -ms-flex-align: center;
         align-items: center;
-    /* центрируем содержимое кнопки */
         top: 20px;
         left: 20px;
         width: 26px;

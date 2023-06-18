@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="assets/css/style.min.css">
     
     <!-- Useful meta tags -->
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="index, follow">
     <meta name="google" content="notranslate">
@@ -26,21 +25,21 @@
                 <span></span>
             </label>
             <ul class="menu__box">
-                <li><a class="menu__item" href="#">Главная</a></li>
-                <li><a class="menu__item" href="#catalog">Каталог</a></li>
-                <li><a href="#about" class="menu__item">Информация</a></li>
-                <li><a href="#contact" class="menu__item">Контакты</a></li>
-                <li><a class="menu__item" href="#recommendations">Рекомендации</a></li>
+                <li><a class="menu__item" href="#" onclick="closeHamburger()">Главная</a></li>
+                <li><a class="menu__item" href="#catalog" onclick="closeHamburger()">Каталог</a></li>
+                <li><a href="#about" class="menu__item" onclick="closeHamburger()">Информация</a></li>
+                <li><a href="#contact" class="menu__item" onclick="closeHamburger()">Контакты</a></li>
+                <li><a class="menu__item" href="#recommendations" onclick="closeHamburger()">Рекомендации</a></li>
             </ul>
         </div>
         <section class="header">
             <div class="phone_contact">
                 <div class="soc_img">
-                    <img src="assets/images/phone_img.png" alt="Phone">
+                    <a class="phone_a" href="tel:+7 (3812) 48-46-47">
+                        <img src="assets/images/phone_img.png" alt="phone"></a>
                 </div>
-                <div class="phone_p">
-                    <p>РФ, г. Омск</p>
-                    <span>+7 (3812) 48-46-47</span>
+                <div class="phone__p__block">
+                    <p class="phone_p">Свяжитесь с нами!</p>
                 </div>
             </div>
             <div class="logo_box">
@@ -91,6 +90,13 @@
             </nav>
         </section>
     </header>
+    <script>
+        function closeHamburger() {
+            let checkItem = document.getElementById('menu__toggle');
+            checkItem.checked = false;
+        }
+    
+    </script>
 
     <main>
         <div class="body_content">
@@ -229,17 +235,20 @@
             <div class="block__contact">
                 <div class="phone__block">
                     <div class="soc_img">
-                        <img src="assets/images/phone_img.png" alt="phone">
+                        <a class="phone_a" target="_blank" href="tel:+7 (3812) 48-46-47">
+                            <img src="assets/images/phone_img.png" alt="phone"></a>
                     </div>
-                    <div class="phone_p">
-                        <span>+7 (3812) 48-46-47</span>
+                    <div class="phone__p__block">
+                        <p class="phone_p">Свяжитесь с нами!</p>
                     </div>
                 </div>
                 <div class="marker__block">
                     <div class="soc_img">
-                        <img src="assets/images/marker_img.png" alt="marker">
+                        <a class="marker__a" target="_blank" href="https://www.google.com/maps/place/%D0%9E%D0%BE%D0%BE+%22%D0%A3%D0%B4%D0%B0%D1%87%D0%BD%D0%B8%D0%BA%22/@55.030291,73.3781,15z/data=!4m6!3m5!1s0x43aaffba08ee50ab:0xb466109fe3c3f5bf!8m2!3d55.030291!4d73.3781!16s%2Fg%2F11t5_b6q8l?entry=ttu">
+                        <img src="assets/images/marker_img.png" alt="marker"></a>
+    
                     </div>
-                    <p>РФ, г. Омск</p>
+                    <p>Россия, г. Омск, ул. 33-я Северная, 28-64</p>
                 </div>
                 <div class="soc_nav">
                     <a class="soc_img" target="_blank" href="https://vk.com">
@@ -254,19 +263,13 @@
                 </div>
             </div>
             <div class="copyright__block">
-                <p>Copyright <span class="copyright"></span> 2023 ООО«УДАЧНИК»</p>
+                <p>Copyright <span class="copyright"></span> ООО«УДАЧНИК»</p>
                 <p>ИНН 5506181583</p>
                 <p>ОГРН 1205500000496</p>
-                <p>644116, Россия, г. Омск, ул. 33-я Северная, 28-64</p>
+    
             </div>
         </section>
     </footer>
-    
-    
-    
-    
-    
-    
 
     <div class="btn-up btn-up_hide"></div>
     <script src="assets/js/app.js"></script>

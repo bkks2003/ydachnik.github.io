@@ -91,6 +91,36 @@
   .recommendations .rec__list li {
     font-size: 1.8rem;
   }
+  .footer .footer__block block__contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .footer__block .phone__block {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+  }
+  .footer .footer__block .phone__block .phone__p__block {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .footer .footer__block .phone__block .phone_p {
+    font-size: 1.4rem;
+    font-weight: 800;
+  }
+  .footer .footer__block .marker__block {
+    display: flex;
+    justify-content: center;
+  }
+  .footer .footer__block .marker__block p {
+    font-size: 1.4rem;
+  }
+  .footer .footer__block .soc_nav {
+    margin: 0 auto;
+  }
   .footer .footer__block .copyright__block {
     text-align: center;
     font-size: 1.4rem;

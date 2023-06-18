@@ -38,10 +38,8 @@
     .menu__btn {
         display: -ms-flexbox;
         display: flex;
-    /* используем flex для центрирования содержимого */
         -ms-flex-align: center;
         align-items: center;
-    /* центрируем содержимое кнопки */
         top: 20px;
         left: 20px;
         width: 26px;

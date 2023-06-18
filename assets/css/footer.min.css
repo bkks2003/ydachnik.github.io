@@ -14,8 +14,13 @@
 .block__contact .phone__block {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   align-self: center;
   margin-right: 1.5rem;
+}
+.block__contact .phone__block .phone__p__block {
+  display: flex;
+  align-items: center;
 }
 .block__contact .marker__block {
   display: flex;
@@ -23,7 +28,6 @@
   flex-flow: row wrap;
 }
 .block__contact .marker__block p {
-  margin-left: 10px;
   color: #152313;
   font-size: 1.8rem;
 }

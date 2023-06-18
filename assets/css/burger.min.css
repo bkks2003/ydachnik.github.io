@@ -1,4 +1,12 @@
 @charset "UTF-8";
+.close {
+  visibility: hidden;
+}
+
+.overlay {
+  visibility: visible;
+}
+
 .hamburger-menu {
   position: fixed;
   z-index: 5;
@@ -13,7 +21,6 @@
 .menu__box {
   display: block;
   position: fixed;
-  visibility: hidden;
   z-index: 4;
   top: 0;
   left: -100%;

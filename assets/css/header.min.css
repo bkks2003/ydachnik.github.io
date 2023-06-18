@@ -19,6 +19,7 @@
   margin-left: 10px;
   font-size: 1.8rem;
   color: #152313;
+  font-weight: 800;
 }
 
 .soc_img {
@@ -37,15 +38,6 @@
 .soc_img img {
   width: 3.5rem;
   height: 3.5rem;
-}
-
-.phone_p p {
-  margin: 0;
-}
-
-.phone_p span {
-  font-weight: 800;
-  margin-top: 0;
 }
 
 /* LOGO BOX */
